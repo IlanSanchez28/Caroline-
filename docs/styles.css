@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2? family= Abel & display=swap');
+
+
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+.header{
+    background-color: #ADDFD3;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+
+.header .logo img{
+    height: 305px;
+    width: 350px;
+}
+
+.carrito{
+    height: 30px;
+    width: 30px;
+}
+
+
+.header .btn{
+    font-weight: 700;
+    font-family: 'Abel',sans-serif;
+    text-decoration: none;
+    color: #000000;
+}
+
+
