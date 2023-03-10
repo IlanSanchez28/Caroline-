@@ -1,0 +1,87 @@
+ @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+
+ footer{
+    background-color: #D6ECDF;
+ }
+
+ footer p{
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+ }
+
+ footer{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-around;
+    /* padding: 100px; */
+    gap: 50px;
+}
+
+.facebook{
+    height: 30px;
+    width: 30px;
+}
+
+.instagram{
+    height: 30px;
+    width: 30px;
+}
+
+.tiktok{
+        height: 35px;
+        width: 35px;
+}
+
+
+.redes{
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    gap: 50px;
+}
+
+
+/*------------------contacto--------*/
+.contacto{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    gap: 50px;
+}
+
+.telefono{
+    height: 50px;
+    width: 50px;
+}
+
+.tel{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    gap: 20px;
+}
+
+.tel h1{
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+
+.email{
+    height: 50px;
+    width: 50px;
+}
+
+.mail{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    gap: 20px;
+}
+
+.mail h1{
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+
