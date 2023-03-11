@@ -1,5 +1,5 @@
   @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@500&family=Public+Sans:wght@200&display=swap');
-
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 
  *{
     box-sizing: border-box;
@@ -17,38 +17,49 @@ body{
     background-color: #ffffff;
 }
 
-.header{
+nav{
     background-color: #ADDFD3;
-    display: flex;
+    
+    /* display: flex;
     justify-content:space-between;
     align-items: center;
     height: 85px;
-    padding: 5px 10%;
+    padding: 5px 10%; */
 }
 
+.d-flex{
+    gap: 20px;
+}
 
-.header .logo img{
-    height: 305px;
-    width: 350px;
+.btn{
+    border-color: transparent;
+    color: black;
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+}
+
+.logo{
+    height: 80px;
+    width: 10;
 }
 
 .carrito{
     height: 30px;
     width: 30px;
+    padding-top: 5px;
 }
 
 
-.header .btn{
-    font-weight: 700;
-    text-decoration: none;
-    color: #000000;
-}
+
+
 
 
 .texto{
     background-color: aqua;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    gap: 10px;
 }
 
 .final{
@@ -57,6 +68,7 @@ body{
     align-items: center;
     padding: 100px;
     gap: 50px;
+    background-color: aqua;
 }
 
 .boton button{
@@ -70,3 +82,4 @@ body{
 .final h1{
     font-size: 30px;
 }
+

@@ -1,6 +1,6 @@
  @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 
-
+ 
  footer{
     background-color: #D6ECDF;
  }
@@ -15,9 +15,8 @@
     flex-direction:row;
     align-items: center;
     justify-content: space-around;
-    /* padding: 100px; */
-    gap: 50px;
-}
+    gap: 50px; }
+ 
 
 .facebook{
     height: 30px;
@@ -83,5 +82,9 @@
 .mail h1{
     font-family: 'Merriweather', serif;
     font-weight: bold;
-}
+} 
+
+
+
+
 
