@@ -19,12 +19,6 @@ body{
 
 nav{
     background-color: #ADDFD3;
-    
-    /* display: flex;
-    justify-content:space-between;
-    align-items: center;
-    height: 85px;
-    padding: 5px 10%; */
 }
 
 .d-flex{
@@ -36,6 +30,12 @@ nav{
     color: black;
     font-family: 'Merriweather', serif;
     font-size: 18px;
+}
+
+.btn:hover{
+    background-color: #D6ECDF;
+    border: transparent;
+    color: black;
 }
 
 .logo{
@@ -50,12 +50,7 @@ nav{
 }
 
 
-
-
-
-
 .texto{
-    background-color: aqua;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 10px;
@@ -68,7 +63,7 @@ nav{
     align-items: center;
     padding: 100px;
     gap: 50px;
-    background-color: aqua;
+
 }
 
 .boton button{
@@ -83,3 +78,15 @@ nav{
     font-size: 30px;
 }
 
+.card-img-top{
+    width: 100px;
+    padding-top: 20px;
+    justify-self: center;
+}
+
+
+
+.card-group{
+margin: 10px;
+gap: 5px;
+}
