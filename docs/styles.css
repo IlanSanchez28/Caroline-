@@ -58,13 +58,21 @@ nav{
         width: 40px;
 }
 
-
 .texto{
+    background-color:#fbeec2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+}
+
+/* .texto{
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 10px;
     gap: 10px;
-}
+    justify-content: center;
+} */
 
 .final{
     display: flex;

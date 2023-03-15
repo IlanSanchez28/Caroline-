@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@500&family=Public+Sans:wght@200&display=swap');
+.form-box {
+    max-width: 300px;
+    background-color: #ADDFD3;
+    overflow: hidden;
+    border-radius: 16px;
+    color: #010101;
+  }
+  
+  .form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 24px 24px;
+    gap: 16px;
+    text-align: center;
+  }
+  
+  /*Form text*/
+  .title {
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    font-size: 1.6rem;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /*Inputs box*/
+  .form-container {
+    overflow: hidden;
+    border-radius: 6px;
+    background-color: #ADDFD3;
+    margin: 1rem 0 .5rem;
+    width: 100%;
+  }
+
+
+  
+  .input {
+    outline: 0;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: .9rem;
+    padding: 8px 15px;
+  }
+  
+  .form-section {
+    padding: 16px;
+    font-size: .85rem;
+    background-color: #ADDFD3;
+    text-align: center;
+  }
+  
+  .form-section a {
+    font-weight: bold;
+    color: black;
+    transition: color .3s ease;
+    text-decoration: none;
+  }
+  
+  .form-section a:hover {
+    color: #8bc59b;
+    text-decoration: none;
+  }
+  
+  /*-----------------Button registrate----------------*/
+  .form button {
+    background-color: #8bc59b;
+    /* padding: 14px 14px;*/
+    color: black;
+    /* letter-spacing: 2px; */
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px dashed#8bc59b;
+    box-shadow: rgba(50, 50, 93, 0.25) 
+    0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .4s;
+    width: 120px;
+    margin-left: 65px;
+  }
+   
+   .form button:hover {
+    transition: .4s;
+    border: 2px dashed #8bc59b;
+    background-color: #fff;
+    color: #8bc59b;
+   }
+   
+   .form button:active {
+    background-color: #8bc59b;
+   }
