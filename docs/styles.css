@@ -49,6 +49,15 @@ nav{
     padding-top: 5px;
 }
 
+.carrito:hover{
+        background-color: #D6ECDF;
+        border: transparent;
+        border-radius: 50px;
+        color: black;
+        height: 40px;
+        width: 40px;
+}
+
 
 .texto{
     display: grid;
@@ -65,14 +74,16 @@ nav{
     gap: 50px;
 
 }
-
+ 
 .boton button{
-    background-color: #D6ECDF;
-    border-color: #D6ECDF;
+    background-color: #bddeac;
+    border-color:#bddeac;
+    border-radius: 10px;
     font-family: 'Public Sans', sans-serif;
     font-size: 20px;
     padding: 10px;
-}
+} 
+
 
 .final h1{
     font-size: 30px;

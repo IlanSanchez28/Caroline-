@@ -1,75 +1,67 @@
  @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 
- 
- footer{
+
+ .footer{
     background-color: #D6ECDF;
- }
-
- footer p{
-    font-family: 'Merriweather', serif;
-    font-weight: bold;
- }
-
- footer{
     display: flex;
-    flex-direction:row;
+    /* flex-direction:row; */
     align-items: center;
     justify-content: space-around;
-    gap: 50px; }
- 
+  
+ }
 
-.facebook{
-    height: 30px;
-    width: 30px;
+ .footer h1{
+    font-family: 'Merriweather', serif;
+    color: black;
+    font-size: medium;
+ }
+
+
+/*Parte uno------------------------*/
+
+.parte1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
-.instagram{
-    height: 30px;
-    width: 30px;
-}
-
-.tiktok{
-        height: 35px;
-        width: 35px;
-}
-
-
+/*redes---------------------------*/
 .redes{
     display: flex;
+    flex-direction: column;
     align-items: center;
-    padding: 100px;
-    gap: 50px;
+    justify-content: center;
+    margin-top: 80px;
+margin-bottom: 80px;}
+
+.logfooter {
+  height: 80px;
 }
 
+
+.logred img{
+    height: 40px;
+    width: 40px;
+}
 
 /*------------------contacto--------*/
 .contacto{
     display: flex;
     flex-direction: column;
-    align-items:flex-start;
-    gap: 50px;
+    justify-content: center;
+    gap: 5px;
 }
 
-.telefono{
-    height: 50px;
-    width: 50px;
+.contacto img{
+    height: 30px;
+    width: 30px;
 }
+
 
 .tel{
     display:flex;
     flex-direction:row;
     align-items: center;
     gap: 20px;
-}
-
-.tel h1{
-    font-family: 'Merriweather', serif;
-    font-weight: bold;
-}
-
-.email{
-    height: 50px;
-    width: 50px;
 }
 
 .mail{
@@ -79,10 +71,24 @@
     gap: 20px;
 }
 
-.mail h1{
-    font-family: 'Merriweather', serif;
-    font-weight: bold;
-} 
+.face{
+    width: 30px;
+    height: 30px;
+    background:none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+}
+
+.face:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #183ee7;
+  }
+
+  .card2:hover .facebook {
+    fill: white;
+  }
+
 
 
 
