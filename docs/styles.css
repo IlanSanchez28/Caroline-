@@ -59,12 +59,39 @@ nav{
 }
 
 .texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+
+
+.texto .card{
+	width: 800px;
+	position: relative;
+	height: 450px;
+	background: #f0f0f0;
+	margin:30px 10px;
+	padding: 20px 15px;
+	display:flex;
+	flex-direction: column;
+	margin-top:60px;
+    gap: 20px;
+}
+
+.texto .card img{
+    width: 400px;
+    
+    
+}
+/* .texto{
     background-color:#fbeec2;
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 5px;
-}
+} */
 
 /* .texto{
     display: grid;
@@ -83,14 +110,41 @@ nav{
 
 }
  
-.boton button{
+/* .boton button{
     background-color: #bddeac;
     border-color:#bddeac;
     border-radius: 10px;
     font-family: 'Public Sans', sans-serif;
     font-size: 20px;
     padding: 10px;
-} 
+}  */
+
+/*----------boton registrate*/
+
+.final button {
+    background-color: #8bc59b;
+    padding: 14px 14px;
+    color: black;
+    /* letter-spacing: 2px; */
+    cursor: pointer;
+    border-radius: 20px;
+    border: 2px dashed#8bc59b;
+    box-shadow: rgba(50, 50, 93, 0.25) 
+    0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .4s;
+  }
+   
+   .boton:hover {
+    transition: .4s;
+    border: 2px dashed #8bc59b;
+    background-color: #fff;
+    border-radius: 10px;
+    color: #8bc59b;
+   }
+
+   .boton:active {
+    background-color: #8bc59b;
+   }
 
 
 .final h1{
