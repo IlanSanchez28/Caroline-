@@ -111,7 +111,10 @@ nav{
     align-items: center;
     padding: 100px;
     gap: 50px;
+}
 
+.final h1{
+    text-align: center;
 }
  
 /* .boton button{

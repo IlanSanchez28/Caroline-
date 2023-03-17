@@ -111,3 +111,23 @@
   }
   
 } */
+
+@media (max-width:360px) {
+  .slide{
+    background-color:none;
+}
+  }
+
+  @media (max-width:375px) {
+    .slide{
+      background-color:none;
+  }
+    }
+
+    @media (max-width:720px) {
+      .slide{
+        background-color:none;
+    }
+      }
+
+      
