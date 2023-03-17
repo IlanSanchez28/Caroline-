@@ -9,24 +9,15 @@
     font-size: 20px;
 }
 
-div .principal{
-    background-color: #EFEEE7
-}
-
-
-
-
 nav{
     background-color: #ADDFD3;
 }
 
 /*--------------carrusel-----------*/
-.slide{
-    margin-top: 10px;
-}
 
 .slide img{
     height: 65vh;
+    width: auto;
 }
 
 .d-block{
@@ -75,27 +66,40 @@ nav{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 100px;
+    gap: 70px;
 }
 
 
 .texto .card{
-	width: 800px;
+	width: 700px;
 	position: relative;
-	height: 450px;
+	height: 500px;
     background-color:transparent;
-	margin:30px 10px;
+	margin:10px 10px;
 	padding: 20px 15px;
 	display:flex;
 	flex-direction: column;
 	margin-top:60px;
     gap: 20px;
-    border-color: #ffffffff;
+    border-color: transparent;
+    align-content: flex-start;
+}
+
+#bienvenida{
+    background-color:transparent;
+    border-color: transparent;
+    
 }
 
 .texto .card img{
-    width: 400px;   
+    width: 400px;
+    height: 200px;  
+    align-self:center; 
 }
+
+.texto h5{
+    text-align: center;
+  }
 
 .final{
     display: flex;

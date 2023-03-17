@@ -3,7 +3,8 @@
 
 .form-box {
     margin-top: 40px;
-    max-width: 300px;
+    max-width: 450px;
+    height: 550px;
     background-color: #ADDFD3;
     overflow: hidden;
     border-radius: 16px;
@@ -15,14 +16,13 @@
     display: flex;
     flex-direction: column;
     padding: 32px 24px 24px;
-    gap: 16px;
+    gap: 10px;
     text-align: center;
   }
   
   /*Form text*/
   .title {
     font-family: 'Merriweather', serif;
-    font-weight: bold;
     font-size: 1.6rem;
   }
   
@@ -30,6 +30,7 @@
     font-size: 1rem;
     color:black;
   }
+
   
   /*Inputs box*/
   .form-container {
@@ -83,7 +84,7 @@
     0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     transition: .4s;
     width: 120px;
-    margin-left: 65px;
+    margin-left: 140px;
   }
    
    .form button:hover {
