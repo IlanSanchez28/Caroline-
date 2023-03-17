@@ -14,15 +14,15 @@ nav{
 }
 
 /*--------------carrusel-----------*/
-
 .slide img{
     height: 65vh;
-    width: auto;
 }
 
-.d-block{
-    width: 2340px;
+.slide{
+    background-color: #EFEBD2;
 }
+
+
 
 .d-flex{
     gap: 20px;
@@ -91,6 +91,10 @@ nav{
     
 }
 
+#redaccion{
+    text-align: justify;
+}
+
 .texto .card img{
     width: 400px;
     height: 200px;  
@@ -157,9 +161,8 @@ nav{
     justify-self: center;
 }
 
-
-
 .card-group{
 margin: 10px;
 gap: 5px;
 }
+
