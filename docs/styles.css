@@ -13,12 +13,24 @@ div .principal{
     background-color: #EFEEE7
 }
 
-body{
-    background-color: #ffffff;
-}
+
+
 
 nav{
     background-color: #ADDFD3;
+}
+
+/*--------------carrusel-----------*/
+.slide{
+    margin-top: 10px;
+}
+
+.slide img{
+    height: 65vh;
+}
+
+.d-block{
+    width: 2340px;
 }
 
 .d-flex{
@@ -71,35 +83,19 @@ nav{
 	width: 800px;
 	position: relative;
 	height: 450px;
-	background: #f0f0f0;
+    background-color:transparent;
 	margin:30px 10px;
 	padding: 20px 15px;
 	display:flex;
 	flex-direction: column;
 	margin-top:60px;
     gap: 20px;
+    border-color: #ffffffff;
 }
 
 .texto .card img{
-    width: 400px;
-    
-    
+    width: 400px;   
 }
-/* .texto{
-    background-color:#fbeec2;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 5px;
-} */
-
-/* .texto{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 10px;
-    gap: 10px;
-    justify-content: center;
-} */
 
 .final{
     display: flex;
