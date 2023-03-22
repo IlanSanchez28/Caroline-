@@ -1,32 +1,25 @@
   @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@500&family=Public+Sans:wght@200&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 
- *{
+
+  *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Public Sans', sans-serif;
     font-size: 20px;
 }
+/*---------------------------------------------
+||  nav bar
+---------------------------------------------*/
 
 nav{
     background-color: #ADDFD3;
 }
-
-/*--------------carrusel-----------*/
-.slide img{
-    height: 65vh;
-}
-
-.slide{
-    background-color: #EFEBD2;
-}
-
-
-
 .d-flex{
     gap: 20px;
 }
+
 
 .btn{
     border-color: transparent;
@@ -49,7 +42,7 @@ nav{
 .carrito{
     height: 30px;
     width: 30px;
-    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .carrito:hover{
@@ -61,6 +54,16 @@ nav{
         width: 40px;
 }
 
+/*---------------------------------------------
+||  carrusel
+---------------------------------------------*/
+
+
+
+
+/*---------------------------------------------
+||  texto de BIENVENIDA
+---------------------------------------------*/
 .texto{
     display: flex;
     justify-content: center;
@@ -103,8 +106,34 @@ nav{
 
 .texto h5{
     text-align: center;
-  }
+}
 
+
+/*---------------------------------------------
+||  tarjetas
+---------------------------------------------*/
+/* .container{
+    width: 1100px;
+    max-width: 100%;
+    margin: 0 auto;
+} */
+
+/* .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+/* .card{
+    flex: 1 1 21rem;
+    margin: 10px 20px;
+    background-color: aqua;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+
+} */
+/*---------------------------------------------
+||  PRUEBA GRATIS
+---------------------------------------------*/
 .final{
     display: flex;
     flex-direction: column;
@@ -113,20 +142,12 @@ nav{
     gap: 50px;
 }
 
+
+
 .final h1{
     text-align: center;
 }
  
-/* .boton button{
-    background-color: #bddeac;
-    border-color:#bddeac;
-    border-radius: 10px;
-    font-family: 'Public Sans', sans-serif;
-    font-size: 20px;
-    padding: 10px;
-}  */
-
-/*----------boton registrate*/
 
 .final button {
     background-color: #8bc59b;
@@ -139,33 +160,29 @@ nav{
     box-shadow: rgba(50, 50, 93, 0.25) 
     0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     transition: .4s;
-  }
+}
    
-   .boton:hover {
-    transition: .4s;
-    border: 2px dashed #8bc59b;
-    background-color: #fff;
-    border-radius: 10px;
-    color: #8bc59b;
-   }
+.boton:hover {
+transition: .4s;
+border: 2px dashed #8bc59b;
+background-color: #fff;
+border-radius: 10px;
+color: #8bc59b;
+}
 
-   .boton:active {
-    background-color: #8bc59b;
-   }
+.boton:active {
+background-color: #8bc59b;
+}
 
 
 .final h1{
     font-size: 30px;
 }
 
-.card-img-top{
-    width: 100px;
-    padding-top: 20px;
-    justify-self: center;
-}
+
 
 .card-group{
-margin: 10px;
-gap: 5px;
+margin: 40px;
+gap: 20px;
 }
 
