@@ -41,19 +41,7 @@
     width: 100%;
   }
 
-
-  
-  .input {
-    outline: 0;
-    height: 40px;
-    width: 100%;
-    margin-bottom: 20px;
-    font-size: .9rem;
-    padding: 8px 15px;
-  }
-  
   .form-section {
-    padding: 16px;
     font-size: .85rem;
     background-color: #ADDFD3;
     text-align: center;
@@ -97,6 +85,51 @@
    .form button:active {
     background-color: #8bc59b;
    }
+
+
+/*-----------------------------------------
+|              inputs                     |
+-----------------------------------------*/
+#pass{
+  font-size: 11.5px;
+}
+.input {
+  outline: 0;
+  height: 40px;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: .9rem;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
+  outline: none;
+  color: dimgray;
+}
+
+.input:invalid {
+  animation: justshake 0.3s forwards;
+  color: red;
+}
+
+@keyframes justshake {
+  25% {
+    transform: translateX(5px);
+  }
+
+  50% {
+    transform: translateX(-5px);
+  }
+
+  75% {
+    transform: translateX(5px);
+  }
+
+  100% {
+    transform: translateX-(5px);
+  }
+}
+
 
 /* formulario responsivo */
 

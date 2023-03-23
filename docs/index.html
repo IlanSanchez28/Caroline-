@@ -70,17 +70,38 @@
                       progreso. </p>
                 </div>
             </div>
-            
+
             <div class="form-box">
-              <form class="form">
+              <form class="form" method="post" action="" id="form">
+                <a name = "formulario"></a>
                   <span class="title">Registrate</span>
                   <span class="subtitle">Crea una cuenta gratis con tu correo electrónico</span>
                   <div class="form-container">
-                    <input type="text" class="input" placeholder="nombre completo" required>                
-                    <input type="email" class="input" placeholder="correo electrónico" required>
-                    <input type="password" class="input" placeholder="contraseña" required>
+                    <input type="text" class="input" id="nombre"  placeholder="nombre completo">       
+                    <input type="email" class="input" id="email"  placeholder="correo electrónico">
+                    <input type="password" class="input" id="pass"  placeholder="contraseña">
+                    <p id="pass"> Usa 8 o más caracteres con una combinación de letras, números y símbolos.</p>
                   </div>
-                  <button>registrate</button>
+                
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#aleRegistro">
+                    registrate
+                  </button>
+
+                 
+                  <div class="modal fade" id="aleRegistro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body" id="alertaRegistro">
+                          
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
               </form>
               <div class="form-section">
                 <p>¿Tienes una cuenta? <br> 
@@ -89,32 +110,44 @@
             </div>
           </div>
         
-          <!--------------------Penultima parte beneficios------->
+          <!--------------------tarjetas------->
           <div class="card-group">
-            <div class="card">
+            <div class="card" id="cardho">
              <img src="imagenes/tarjeta1.svg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <h5 class="card-title">Básico</h5>
+                    <ul>
+                      <li>Comienza desde cero, aprende los conceptos básicos sobre finanzas.</li>
+                      <li>Clases grupales 3 días a la semana.</li>
+                      <li>Material de estudio y practica.</li>
+                    </ul>
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card" id="cardho">
                 <img src="imagenes/tarjeta2.svg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  <h5 class="card-title">Intermedio</h5>
+                  <ul>
+                    <li>Aprende a tu ritmo</li>
+                    <li>Reunión grupal una vez por semana.</li>
+                    <li>Material de estudio.</li>
+                    <li>Casos prácticos</li>
+                    <li>Sesión uno a uno</li>
+                  </ul>
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card" id="cardho">
                 <img src="imagenes/tarjeta3.svg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <h5 class="card-title">Avanzado</h5>
+                    <li>Aprende a tu ritmo.</li>
+                    <li>Material de estudio.</li>
+                    <li>Sesión uno a uno.</li>
+                    <li>Aplica lo aprendido en tu propio negocio.</li>
+                    
+                    
                 </div>
             </div>
           </div>
@@ -124,7 +157,7 @@
             <div class="final">
                 <h1 >PRUEBA GRATIS POR 7 DÍAS</h1>
                 <h1>OBTEN UN CÓDIGO DE 15% DE DESCUENTO PARA TU SEGUNDO CURSO</h1>
-                <a class="boton" href="#"> <button class="boton"> registrate </button></a>
+                <a class="boton" href="#formulario"> <button class="boton"> registrate </button></a>
             </div>
 
      
@@ -165,14 +198,12 @@
                 </div>
               </div>
             </footer>
-        
 
-
-
-
-
-            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+            <script src="camposform.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    
     </body>
 
 </html>
