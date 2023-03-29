@@ -19,6 +19,31 @@
         margin-top: 8px;
     }
 
+    .logfooter {
+        height: 50px;
+    }
+
+    .logred img{
+        height: 20px;
+        width: 20px;
+    }
+
+    .footer h1{
+        font-family: 'Merriweather', serif;
+        color: black;
+        font-size: small;
+        text-align: center;
+    }
+
+    .contacto img{
+        height: 20px;
+        width: 20px;
+    }
+
+    .footer ul{
+        padding-left: 0;
+    }
+
     /* FORMULARIO Y TEXTO*/
 
     .texto .card img{
@@ -52,21 +77,19 @@
         /* align-content: flex-start; */
         align-content:space-around;
     }
-/* 
-    .form button{
-        margin-left: 70px;
-    } */
+
 
     .row {
    --bs-gutter-x: 0;
+    }
+
+    .form-section p{
+        text-align: center;
+    }
+
+    .subtitle{
+        font-size: 15px;
+    }
+
 }
 
-.form-section p{
-    text-align: center;
-}
-
-.subtitle{
-    font-size: 15px;
-}
-
-}
