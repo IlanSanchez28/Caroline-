@@ -74,7 +74,7 @@
                   </div>
 
                   <div class="form-box col-xs-12 col-md-6 col-lg-6">
-                    <form class="form" method="post" action="" id="form">
+                    <form class="form" method="POST" action="" id="formul">
                       <a name = "formulario"></a>
                         <span class="title">Registrate</span>
                         <span class="subtitle">Crea una cuenta gratis con tu correo electrónico</span>
@@ -84,31 +84,26 @@
                           <input type="password" class="input" id="pass"  placeholder="contraseña">
                           <p id="passw"> Usa 8 o más caracteres con una combinación de letras, números y símbolos.</p>
                         </div>
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                        
-                       
-                        <!-- <button type="button" data-bs-toggle="modal" data-bs-target="#aleRegistro">
-                          registrate
-                        </button>
-
-                      
-                        <!-<div class="modal fade" id="aleRegistro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                          <div class="modal-dialog">
-                            <div class="modal-content">
-                              <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                              </div>
-                              <div class="modal-body" id="alertaRegistro">
-                                
-
-                              </div>
-                            </div>
-                          </div>
-                        </div> --> 
+                              <!-- Button trigger modal -->
+                              <button type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                registrate
+                              </button>
+                              <!-- Modal -->
+                              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      AVISO
+                                      <button type="button"  data-bs-dismiss="modal" aria-label="Close">x</button>
+                                    </div>
+                                    <div class="modal-body" id="warnings">
+                                      <!-- <p class="warnings" id="warnings"> </p>  -->
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>  
                     </form>
+                    
                     <div class="form-section">
                       <p>¿Tienes una cuenta? <br> 
                       <a href="">Inicia sesión</a> </p>
@@ -116,7 +111,7 @@
                   </div>
             </div>
           </div>
-        
+
           <!--------------------tarjetas------->
           <div class="card-group">
             <div class="card" id="cardho">
