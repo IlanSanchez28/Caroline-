@@ -64,15 +64,6 @@ nav{
 /*---------------------------------------------
 ||  texto de BIENVENIDA
 ---------------------------------------------*/
-.texto{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 70px;
-}
-
-
 .texto .card{
 	width: 700px;
 	position: relative;
@@ -115,7 +106,6 @@ nav{
 
 #cardho{
 	width: 100%;
-	margin: 20px;
 	border-radius: 6px;
 	overflow: hidden;
 	background:#fff;
@@ -180,5 +170,7 @@ background-color: #8bc59b;
     font-size: 30px;
 }
 
-
-
+#formu{
+    display: flex;
+    justify-content: center;
+}

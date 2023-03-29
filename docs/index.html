@@ -58,56 +58,62 @@
           </button>
         </div>
        <!----------------------------------------TEXTO Y FORMULARIO-->
-          <div class="texto">         
-            <div class="card" id="bienvenida">
-              <h5 class="card-title">TE DOY LA BIENVENIDA A <br>
-                                    TU NUEVO LUGAR PARA APRENDER</h5>
-                <img src="imagenes/logo1.png" class="logo" alt="logo">
-                <div class="card-body" id="redaccion">
-                    <p class="card-text">Emprender es un arte. Hablar sobre finanzas
-                      puede ser difícil, desordenado  y algo complicado. <br>
-                      Pero siempre hay una forma de trabajarlo. Por eso creamos by Caroline. <br>
-                      Un lugar para aprender, tomar las riendas de tu negocio y sentirte seguro con tu
-                      progreso. </p>
-                </div>
-            </div>
-
-            <div class="form-box">
-              <form class="form" method="post" action="" id="form">
-                <a name = "formulario"></a>
-                  <span class="title">Registrate</span>
-                  <span class="subtitle">Crea una cuenta gratis con tu correo electrónico</span>
-                  <div class="form-container">
-                    <input type="text" class="input" id="nombre"  placeholder="nombre completo">       
-                    <input type="email" class="input" id="email"  placeholder="correo electrónico">
-                    <input type="password" class="input" id="pass"  placeholder="contraseña">
-                    <p id="pass"> Usa 8 o más caracteres con una combinación de letras, números y símbolos.</p>
-                  </div>
-                
-                  <button type="button" data-bs-toggle="modal" data-bs-target="#aleRegistro">
-                    registrate
-                  </button>
-
-                 
-                  <div class="modal fade" id="aleRegistro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body" id="alertaRegistro">
-                          
-
-                        </div>
+          <div class="texto container-fluid">
+            <div class="row" id="formu">        
+                  <div class="card col-xs-12 col-md-6 col-lg-6" id="bienvenida">
+                    <h5 class="card-title">TE DOY LA BIENVENIDA A <br>
+                                          TU NUEVO LUGAR PARA APRENDER</h5>
+                      <img src="imagenes/logo1.png" class="logo" alt="logo">
+                      <div class="card-body" id="redaccion">
+                          <p class="card-text">Emprender es un arte. Hablar sobre finanzas
+                            puede ser difícil, desordenado  y algo complicado. <br>
+                            Pero siempre hay una forma de trabajarlo. Por eso creamos by Caroline. <br>
+                            Un lugar para aprender, tomar las riendas de tu negocio y sentirte seguro con tu
+                            progreso. </p>
                       </div>
+                  </div>
+
+                  <div class="form-box col-xs-12 col-md-6 col-lg-6">
+                    <form class="form" method="post" action="" id="form">
+                      <a name = "formulario"></a>
+                        <span class="title">Registrate</span>
+                        <span class="subtitle">Crea una cuenta gratis con tu correo electrónico</span>
+                        <div class="form-container">
+                          <input type="text" class="input" id="nombre"  placeholder="nombre completo">       
+                          <input type="email" class="input" id="email"  placeholder="correo electrónico">
+                          <input type="password" class="input" id="pass"  placeholder="contraseña">
+                          <p id="passw"> Usa 8 o más caracteres con una combinación de letras, números y símbolos.</p>
+                        </div>
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                        
+                       
+                        <!-- <button type="button" data-bs-toggle="modal" data-bs-target="#aleRegistro">
+                          registrate
+                        </button>
+
+                      
+                        <!-<div class="modal fade" id="aleRegistro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body" id="alertaRegistro">
+                                
+
+                              </div>
+                            </div>
+                          </div>
+                        </div> --> 
+                    </form>
+                    <div class="form-section">
+                      <p>¿Tienes una cuenta? <br> 
+                      <a href="">Inicia sesión</a> </p>
                     </div>
                   </div>
-              </form>
-              <div class="form-section">
-                <p>¿Tienes una cuenta? <br> 
-                <a href="">Inicia sesión</a> </p>
-              </div>
             </div>
           </div>
         
