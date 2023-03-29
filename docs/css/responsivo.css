@@ -57,5 +57,16 @@
         margin-left: 70px;
     }
 
+    .row {
+   --bs-gutter-x: 0;
 }
 
+.form-section p{
+    text-align: center;
+}
+
+.subtitle{
+    font-size: 15px;
+}
+
+}
