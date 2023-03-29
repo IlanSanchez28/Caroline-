@@ -52,10 +52,10 @@
         /* align-content: flex-start; */
         align-content:space-around;
     }
-
+/* 
     .form button{
         margin-left: 70px;
-    }
+    } */
 
     .row {
    --bs-gutter-x: 0;

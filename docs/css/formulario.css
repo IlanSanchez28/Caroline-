@@ -61,7 +61,7 @@
   /*-----------------Button registrate----------------*/
   .form button {
     background-color: #8bc59b;
-    /* padding: 14px 14px;*/
+    padding: 14px 14px;
     color: black;
     /* letter-spacing: 2px; */
     cursor: pointer;
@@ -70,8 +70,8 @@
     box-shadow: rgba(50, 50, 93, 0.25) 
     0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     transition: .4s;
-    width: 120px;
-    margin-left: 125px;
+    align-self: center;
+   
   }
    
    .form button:hover {
