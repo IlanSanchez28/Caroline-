@@ -30,9 +30,9 @@ form.addEventListener("submit", e=>{
         ${warnings}
       </div>`;
     }else{
-        parrafo.innerHTML += `<div class="alert alert-success" role="alert">
+        parrafo.innerHTML += `
          <h3>Formulario correcto <br> ¡Enviado! </h3>
-      </div>`
+      `
       form.reset();
     }
 })

@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/formulario.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/responsivo.css">
+    <link rel="stylesheet" href="css/correo.css">
     <title>Caroline</title>
     </head>
 
@@ -161,8 +162,57 @@
             <div class="final">
                 <h1 >PRUEBA GRATIS POR 7 DÍAS</h1>
                 <h1>OBTEN UN CÓDIGO DE 15% DE DESCUENTO PARA TU SEGUNDO CURSO</h1>
-                <a class="boton" href="#formulario"> <button class="boton"> registrate </button></a>
-            </div>
+
+                <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h7 class="modal-title" id="exampleModalToggleLabel">Envia un email</h7>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="contact-form">
+                          <span class="heading">Contacta a Caroline y resuelve 
+                            tus dudas
+                          </span>
+                          <form id="campos">
+                            <label for="name">Nombre:</label>
+                            <input type="text" id="usuario">
+                            <label for="email">Correo electrónico:</label>
+                            <input type="email" id="comu" name="correo">
+                            <label for="message">Mensaje:</label>
+                            <textarea id="mensaje" name="message" placeholder="¡Hola!"></textarea>
+                            <button type="submit" class="btn" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Enviar</button>
+                          </form>
+                        </div>
+                      </div>
+                    
+                    </div>
+                  </div>
+                </div>
+                <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h7 class="modal-title" id="exampleModalToggleLabel2">Aviso</h7>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body" id="aviso">
+                       
+                      </div>
+                      <div class="modal-footer">
+                        <button data-bs-target="#exampleModalToggle" data-bs-toggle="modal">volver</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a class="btn" id="send" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Registrate</a>
+
+
+            
+            </div> <!--FINAL ANTES DEL FOOTER-->    
+
+                
 
            <!-------------FOOTER --------------------------------------------->
             <div class="container-fluid footer">
@@ -205,7 +255,9 @@
                 </div>
               </div>
 
-            <script src="camposform.js"></script>
+            
+            <script src="js/correo.js"></script>
+            <script src="js/camposform.js"></script>
             <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
